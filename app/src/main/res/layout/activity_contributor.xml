@@ -25,6 +25,7 @@
             android:id="@+id/thank_you"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textIsSelectable="true"
             android:gravity="center"
             android:text="@string/thank_you"
             android:textColor="?android:textColorPrimary"
@@ -34,6 +35,7 @@
             android:id="@+id/thanks_to_you"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textIsSelectable="true"
             android:gravity="center"
             android:layout_marginTop="15dp"
             android:text="@string/thanks_to_you"
@@ -43,6 +45,7 @@
             android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textIsSelectable="true"
             android:text="@string/content_unlock" />
 
         <LinearLayout
@@ -55,6 +58,7 @@
                 android:id="@+id/keepassdxExportText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textIsSelectable="true"
                 android:gravity="center"
                 android:textColor="?attr/colorPrimary"
                 android:text="@string/keepassdx_merge"/>
@@ -73,7 +77,8 @@
                 android:id="@+id/keepassdxHowExportSettings"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
+                android:textIsSelectable="true"
+                android:layout_gravity="center"
                 android:textColor="?attr/colorSecondary"
                 android:text="@string/keepassdx_migrate"/>
         </LinearLayout>
@@ -94,6 +99,7 @@
                 android:id="@+id/filesyncSoon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textIsSelectable="true"
                 android:layout_gravity="center"
                 android:textColor="?attr/colorSecondary"
                 android:text="@string/filesync_soon"/>
@@ -103,6 +109,7 @@
             android:layout_marginTop="24dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textIsSelectable="true"
             android:gravity="center"
             android:text="@string/first_contribute"/>
     </LinearLayout>
