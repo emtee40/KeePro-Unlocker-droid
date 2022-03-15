@@ -40,53 +40,70 @@
             android:textColor="?android:textColorPrimary"
             android:textSize="16sp" />
         <TextView
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_unlock" />
+
+        <LinearLayout
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/keepassdxExportText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?attr/colorPrimary"
+                android:text="@string/keepassdx_merge"/>
+            <Button
+                android:id="@+id/keepassdxButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/keepassdx"/>
+            <Button
+                android:id="@+id/keepassdxExportSettingsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/materialButtonOutlinedStyle"
+                android:text="@string/keepassdx_export_settings"/>
+            <TextView
+                android:id="@+id/keepassdxHowExportSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?attr/colorSecondary"
+                android:text="@string/keepassdx_migrate"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/filesyncButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="@string/filesync"/>
+            <TextView
+                android:id="@+id/filesyncSoon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="?attr/colorSecondary"
+                android:text="@string/filesync_soon"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="24dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/first_contribute"/>
-
-
-        <TextView
-            android:layout_marginTop="24dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textColor="?attr/colorPrimary"
-            android:text="@string/keepassdx_merge"/>
-        <Button
-            android:id="@+id/keepassdxButton"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/buy_button_height"
-            android:text="@string/keepassdx"/>
-        <Button
-            android:id="@+id/keepassdxExportSettingsButton"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/buy_button_height"
-            style="?attr/materialButtonOutlinedStyle"
-            android:text="@string/keepassdx_export_settings"/>
-        <TextView
-            android:id="@+id/keepassdxHowExportSettings"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textColor="?attr/colorSecondary"
-            android:text="@string/keepassdx_migrate"/>
-
-        <Button
-            android:layout_marginTop="24dp"
-            android:id="@+id/filesyncButton"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/buy_button_height"
-            android:enabled="false"
-            android:text="@string/filesync"/>
-        <TextView
-            android:id="@+id/filesyncSoon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textColor="?attr/colorSecondary"
-            android:text="@string/filesync_soon"/>
-
     </LinearLayout>
 </ScrollView>
