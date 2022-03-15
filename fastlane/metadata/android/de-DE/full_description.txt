@@ -1,0 +1,17 @@
+<i>Contributor Pro</i> ist eine Beitrags-App, die <b>Entwicklung</b>, <b>besseren Service</b> und die <b>Erstellung von Open-Source-Software ohne Werbung fördert</b>.
+
+Mit dieser Anwendung können Sie den Inhalt der folgenden Anwendungen freischalten: 
+
+<b>KeePassDX Pro</b>
+ - Zugriff auf benutzerdefinierte Themen.
+ - Erstellung von Steam TOTPs.
+ - Entfernen von Spendenschaltflächen.
+ 
+<b>FileSync Pro</b> <i>Bald verfügbar, befindet sich derzeit in der Entwicklung!</i>
+ - Zugriff auf alle APIs für private Clouds (Dropbox, OneDrive, Google Drive, PCloud).
+ - Zugriff auf benutzerdefinierte Designs.
+ - Entfernen von Spendenschaltflächen.
+ 
+Um den Inhalt zu entsperren, muss <i>Contributor Pro</i> installiert sein, während die Anwendung, die entsperrt werden soll, geöffnet ist.
+
+Die Projekte werden ständig weiterentwickelt. Zögern Sie nicht, den Entwicklungsstand der nächsten Updates zu überprüfen : <a href="https://github.com/Kunzisoft">https://github.com/Kunzisoft</a>

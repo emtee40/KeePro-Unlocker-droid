@@ -1,0 +1,17 @@
+<i>Contributor Pro</i> est une application de contribution qui encourage les <b>développements</b>, un <b>meilleur service</b>, et la création de <b>logiciels open source sans publicité</b>.
+
+Cette application vous permet de débloquer le contenu des applications suivantes :
+
+<b>KeePassDX Pro</b>
+ - Accès aux thèmes personnalisés.
+ - Création de TOTP Steam.
+ - Suppression des boutons de dons.
+ 
+<b>FileSync Pro</b> <i>Bientôt disponible, est actuellement en cours de développement !</i>
+ - Accès à toutes les API de cloud privé (Dropbox, OneDrive, Google Drive, PCloud)
+ - Accès aux thèmes personnalisés.
+ - Suppression des boutons de dons.
+ 
+Pour déverrouiller le contenu, <i>Contributor Pro</i> doit être installé alors que l'application à déverrouiller est ouverte.
+
+Les projets sont en constante évolution. N'hésitez pas à vérifier l'état de développement des prochaines mises à jour : <a href="https://github.com/Kunzisoft">https://github.com/Kunzisoft</a>
