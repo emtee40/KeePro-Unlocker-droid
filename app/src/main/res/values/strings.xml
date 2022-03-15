@@ -14,7 +14,7 @@
     <string name="thanks_to_you">Thanks to you, applications can be maintained and features are added regularly.</string>
     <string name="first_contribute">As an early contributor, you will have access to all the features of the new open source Kunzisoft apps that will be deployed in the future, so keep this app installed to enjoy your benefits.</string>
 
-    <string name="keepassdx_merge">To further improve the user experience, KeePassDX and KeePassDX Pro will merge into the same KeePassDX app in the next version.\n\nOf course, you keep all the advantages already acquired, but you will need to re-download the KeePassDX app to reintegrate your settings.</string>
+    <string name="keepassdx_merge">To further improve the user experience, KeePassDX and KeePassDX Pro are merging into the same KeePassDX app in the next version.\n\nOf course, you keep all the advantages already acquired, but you have to re-download the KeePassDX app to reintegrate your settings.</string>
     <string name="keepassdx_migrate">How do I migrate settings?</string>
     <string name="keepassdx_export_settings">Export Settings</string>
 </resources>
