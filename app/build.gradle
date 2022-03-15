@@ -8,10 +8,10 @@ android {
 
     defaultConfig {
         applicationId "com.kunzisoft.keepass.pro"
-        minSdk 16
+        minSdk 15
         targetSdk 31
-        versionCode 1
-        versionName "1.0"
+        versionCode 104
+        versionName "3.3.3"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
