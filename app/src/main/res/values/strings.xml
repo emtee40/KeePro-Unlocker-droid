@@ -1,13 +1,15 @@
-<resources>
-    <string name="app_name">Contributor Pro</string>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="app_name" translatable="false">Contributor Pro</string>
 
     <!-- Checkout activity -->
     <string name="item_description">Description</string>
 
     <string name="no_url_handler">Install a web browser to open this URL.</string>
 
-    <string name="keepassdx">KeePassDX Pro</string>
-    <string name="filesync">FileSync Pro</string>
+    <string name="keepassdx" translatable="false">KeePassDX Pro</string>
+    <string name="filesync" translatable="false">FileSync Pro</string>
     <string name="filesync_soon">(Coming soon, currently in development)</string>
 
     <string name="thank_you">Thank you for your contribution!</string>
