@@ -1,1 +1,1 @@
-Beitragsanwendung, die die Entwicklung von Open-Source-Anwendungen fördert und exklusive Inhalte freischaltet
+Beitrags-App zur Förderung der Entwicklung von Open-Source-Software

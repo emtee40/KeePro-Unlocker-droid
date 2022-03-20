@@ -1,0 +1,17 @@
+Contributor Proは、広告なしでオープンソースソフトウェアの開発、より良いサービス、創造を促進するコントリビューションアプリです。
+
+このアプリを使うと、以下のアプリのコンテンツをアンロックすることができます。
+
+<b>KeePassDX Pro</b>
+ - カスタムテーマへのアクセス。
+ - TOTPのSteam作成。
+ - 寄付金ボタンの削除
+ 
+<b>FileSync Pro</b> <i>Coming soonは現在開発中です。</i>
+ - すべてのプライベートクラウドAPIへのアクセス（Dropbox、OneDrive、Google Drive、PCloud)
+ - カスタムテーマへのアクセス
+ - 寄付金ボタンの削除
+ 
+コンテンツのロックを解除するには、ロックを解除するアプリケーションが開いている間に、Contributor Proをインストールする必要があります。
+
+プロジェクトは常に進化しています。次のアップデートの開発状況をお気軽にご確認ください。<a href="https://github.com/Kunzisoft">https://github.com/Kunzisoft</a>
