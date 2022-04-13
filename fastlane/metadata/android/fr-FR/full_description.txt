@@ -3,14 +3,12 @@
 Cette application vous permet de débloquer le contenu des applications suivantes :
 
 <b>KeePassDX Pro</b>
- - Accès aux thèmes personnalisés.
+ - Accès à des thèmes supplémentaires.
  - Création de TOTP Steam.
- - Suppression des boutons de dons.
  
 <b>FileSync Pro</b> <i>Bientôt disponible, est actuellement en cours de développement !</i>
+ - Accès à des thèmes supplémentaires.
  - Accès à toutes les API de cloud privé (Dropbox, OneDrive, Google Drive, PCloud)
- - Accès aux thèmes personnalisés.
- - Suppression des boutons de dons.
  
 Pour déverrouiller le contenu, <i>Contributor Pro</i> doit être installé alors que l'application à déverrouiller est ouverte.
 

@@ -3,14 +3,12 @@ Contributor Proは、広告なしでオープンソースソフトウェアの�
 このアプリを使うと、以下のアプリのコンテンツをアンロックすることができます。
 
 <b>KeePassDX Pro</b>
- - カスタムテーマへのアクセス。
- - TOTPのSteam作成。
- - 寄付金ボタンの削除
+ - 追加テーマへのアクセス
+ - TOTPのSteam作成
  
 <b>FileSync Pro</b> <i>Coming soonは現在開発中です。</i>
+ - 追加テーマへのアクセス
  - すべてのプライベートクラウドAPIへのアクセス（Dropbox、OneDrive、Google Drive、PCloud)
- - カスタムテーマへのアクセス
- - 寄付金ボタンの削除
  
 コンテンツのロックを解除するには、ロックを解除するアプリケーションが開いている間に、Contributor Proをインストールする必要があります。
 
