@@ -10,7 +10,8 @@
 
     <string name="keepassdx" translatable="false">KeePassDX Pro</string>
     <string name="filesync" translatable="false">FileSync Pro</string>
-    <string name="filesync_soon">(Coming soon, currently in development)</string>
+    <string name="yubikey_driver" translatable="false">Yubikey Driver Pro</string>
+    <string name="coming_soon">(Coming soon, currently in development)</string>
 
     <string name="thank_you">Thank you for your contribution!</string>
     <string name="thanks_to_you">Thanks to you, applications can be maintained and features are added regularly.</string>

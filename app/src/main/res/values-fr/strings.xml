@@ -1,5 +1,5 @@
 <resources>
-    <string name="filesync_soon">(A venir, actuellement en cours de développement)</string>
+    <string name="coming_soon">(A venir, actuellement en cours de développement)</string>
 
     <string name="thank_you">Merci pour votre contribution !</string>
     <string name="thanks_to_you">Grâce à vous, les applications peuvent être maintenues et des fonctionnalités sont ajoutées régulièrement.</string>

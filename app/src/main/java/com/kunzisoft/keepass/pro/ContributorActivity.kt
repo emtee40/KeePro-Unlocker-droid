@@ -69,6 +69,10 @@ class ContributorActivity : AppCompatActivity() {
             layoutBinding.keepassdxHowExportSettings.isVisible = false
         }
 
+        layoutBinding.yubikeyButton.setOnClickListener {
+            openExternalApp("com.kunzisoft.hardware.key")
+        }
+
         layoutBinding.filesyncButton.setOnClickListener {
             // TODO
         }
