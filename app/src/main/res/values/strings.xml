@@ -1,7 +1,7 @@
 <resources
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation">
-    <string name="app_name" translatable="false">Contributor Pro</string>
+    <string name="app_name" translatable="false">KeePro Unlocker</string>
 
     <!-- Checkout activity -->
     <string name="item_description">Description</string>

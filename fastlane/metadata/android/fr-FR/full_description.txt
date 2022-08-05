@@ -1,4 +1,4 @@
-<i>Contributor Pro</i> est une application de contribution qui encourage les <b>développements</b>, un <b>meilleur service</b>, et la création de <b>logiciels open source sans publicité</b>.
+<i>KeePro Unlocker</i> est une application de contribution qui encourage les <b>développements</b>, un <b>meilleur service</b>, et la création de <b>logiciels open source sans publicité</b>.
 
 Cette application vous permet de débloquer le contenu des applications suivantes :
 
@@ -10,6 +10,6 @@ Cette application vous permet de débloquer le contenu des applications suivante
  - Accès à des thèmes supplémentaires.
  - Accès à toutes les API de cloud privé (Dropbox, OneDrive, Google Drive, PCloud)
  
-Pour déverrouiller le contenu, <i>Contributor Pro</i> doit être installé alors que l'application à déverrouiller est ouverte.
+Pour déverrouiller le contenu, <i>KeePro Unlocker</i> doit être installé alors que l'application à déverrouiller est ouverte.
 
 Les projets sont en constante évolution. N'hésitez pas à vérifier l'état de développement des prochaines mises à jour : <a href="https://github.com/Kunzisoft">https://github.com/Kunzisoft</a>
