@@ -6,7 +6,12 @@ Mit dieser Anwendung können Sie den Inhalt der folgenden Anwendungen freischalt
  - Zugang zu zusätzlichen Themen.
  - Erstellung von Steam TOTPs.
  
-<b>FileSync Pro</b> <i>Bald verfügbar, befindet sich derzeit in der Entwicklung!</i>
+Sie hilft auch bei der Erstellung von Anwendungen:
+
+<b>Key Driver</b> (Treiber für physischen Schlüssel, der Yubikey und SoloKey verwaltet)
+ - Zugang zum Recovery bei Schlüsselverlust.
+ 
+<b>FileSync Pro</b> (Dateimanager, der die Synchronisierung und sichere Speicherung von Dateien ermöglicht) <i>Bald verfügbar, befindet sich derzeit in der Entwicklung!</i>
  - Zugang zu zusätzlichen Themen.
  - Zugriff auf alle APIs für private Clouds (Dropbox, OneDrive, Google Drive, PCloud).
  
