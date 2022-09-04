@@ -4,7 +4,6 @@ import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import android.preference.PreferenceManager
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -36,14 +35,14 @@ class ContributorActivity : AppCompatActivity() {
         layoutBinding.keepassdxButton.setOnClickListener {
             openExternalApp("com.kunzisoft.keepass.free")
         }
-        if (containsAppProperties(this)) {
+        if (containsAppProperties()) {
             mExternalFileHelper = ExternalFileHelper(this)
             mExternalFileHelper?.buildCreateDocument { createdFileUri ->
                 // Export app properties result
                 try {
                     createdFileUri?.let { uri ->
                         contentResolver?.openOutputStream(uri)?.use { outputStream ->
-                            getAppProperties(this)
+                            getAppProperties()
                                 .store(outputStream, getString(R.string.description_app_properties))
                         }
                         Toast.makeText(this, R.string.success_export_app_properties, Toast.LENGTH_LONG).show()
@@ -69,14 +68,12 @@ class ContributorActivity : AppCompatActivity() {
             layoutBinding.keepassdxHowExportSettings.isVisible = false
         }
 
-        layoutBinding.yubikeyButton.setOnClickListener {
-            openExternalApp("com.kunzisoft.hardware.key")
+        layoutBinding.keyDriverButton.setOnClickListener {
+            //openExternalApp("com.kunzisoft.hardware.key")
+            gotoUrl("https://gitlab.com/kunzisoft/android-hardware-key-driver")
         }
 
         layoutBinding.filesyncButton.setOnClickListener {
-            // TODO
-        }
-        layoutBinding.filesyncSoon.setOnClickListener {
             gotoUrl("https://github.com/Kunzisoft/FileSync")
         }
     }
@@ -104,25 +101,17 @@ class ContributorActivity : AppCompatActivity() {
         }
     }
 
-    private fun gotoUrl(url: String?) {
+    private fun gotoUrl(url: String) {
         try {
-            if (url != null && url.isNotEmpty()) {
-                // Default http:// if no protocol specified
-                val newUrl = if (!url.contains("://")) {
-                    "http://$url"
-                } else {
-                    url
-                }
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(newUrl)))
-            }
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
         } catch (e: Exception) {
             Toast.makeText(this, R.string.no_url_handler, Toast.LENGTH_LONG).show()
         }
     }
 
-    private fun containsAppProperties(context: Context): Boolean {
+    private fun containsAppProperties(): Boolean {
         var containsKeePassProperties = false
-        for ((name, _) in PreferenceManager.getDefaultSharedPreferences(context).all) {
+        for ((name, _) in getSharedPreferences(applicationContext.packageName, Context.MODE_PRIVATE).all) {
             containsKeePassProperties = isAppProperty(name)
         }
         return containsKeePassProperties
@@ -204,9 +193,9 @@ class ContributorActivity : AppCompatActivity() {
         }
     }
 
-    private fun getAppProperties(context: Context): Properties {
+    private fun getAppProperties(): Properties {
         val properties = Properties()
-        for ((name, value) in PreferenceManager.getDefaultSharedPreferences(context).all) {
+        for ((name, value) in getSharedPreferences(applicationContext.packageName, Context.MODE_PRIVATE).all) {
             if (isAppProperty(name)) {
                 properties[name] = value.toString()
             }

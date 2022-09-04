@@ -1,12 +1,17 @@
 <i>KeePro Unlocker</i> est une application de contribution qui encourage les <b>développements</b>, un <b>meilleur service</b>, et la création de <b>logiciels open source sans publicité</b>.
 
-Cette application vous permet de débloquer le contenu des applications suivantes :
+Cette application débloque le contenu des applications suivantes :
 
 <b>KeePassDX Pro</b>
  - Accès à des thèmes supplémentaires.
  - Création de TOTP Steam.
  
-<b>FileSync Pro</b> <i>Bientôt disponible, est actuellement en cours de développement !</i>
+Elle aide également la création des applications : 
+
+<b>Key Driver</b> (Pilote pour clé physique qui gére les Yubikey et SoloKey)
+ - Accès au recovery en cas de perte de clé.
+ 
+<b>FileSync Pro</b> (Gestionnaire de fichiers qui permet la synchronisation et le stockage sécurisé des fichiers) <i>Bientôt disponible, est actuellement en cours de développement !</i>
  - Accès à des thèmes supplémentaires.
  - Accès à toutes les API de cloud privé (Dropbox, OneDrive, Google Drive, PCloud)
  

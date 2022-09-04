@@ -9,14 +9,17 @@
     <string name="no_url_handler">Install a web browser to open this URL.</string>
 
     <string name="keepassdx" translatable="false">KeePassDX Pro</string>
-    <string name="filesync" translatable="false">FileSync Pro</string>
-    <string name="yubikey_driver" translatable="false">Yubikey Driver Pro</string>
-    <string name="coming_soon">(Coming soon, currently in development)</string>
+    <string name="keepassdx_desc">KeePass password manager, the Pro version unlocks themes and gives access to non-free protocol services</string>
+    <string name="key_driver" translatable="false">Key Driver</string>
+    <string name="key_driver_desc">Driver for physical key that manages Yubikey and SoloKey</string>
+    <string name="filesync" translatable="false">FileSync</string>
+    <string name="filesync_desc">File manager that allows synchronization and secure storage of files</string>
 
     <string name="thank_you">Thank you for your contribution!</string>
     <string name="thanks_to_you">Thanks to you, applications can be maintained and features are added regularly.</string>
-    <string name="first_contribute">You\'re an early contributor, so you will have access to the features of the new open source Kunzisoft apps that will be deployed in the future, so keep this app installed to enjoy your benefits.</string>
+    <string name="first_contribute">You\'re an early contributor, so you will have access to the advanced features of the new open source Kunzisoft apps that will be deployed in the future, so keep this app installed to enjoy your benefits.</string>
     <string name="content_unlock">This content is now unlocked:</string>
+    <string name="content_help">You also help with the realization of applications under development:</string>
 
     <string name="keepassdx_merge">To further improve the user experience, KeePassDX and KeePassDX Pro are merging into the same KeePassDX app and this app becomes a contributing app.\n\nOf course, you keep all the advantages already acquired, but you have to re-download the KeePassDX app to reintegrate your settings.</string>
     <string name="keepassdx_migrate">How do I migrate settings?</string>

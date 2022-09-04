@@ -42,14 +42,16 @@
             android:textColor="?android:textColorPrimary"
             android:textSize="16sp" />
         <TextView
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textIsSelectable="true"
-            android:text="@string/content_unlock" />
+            android:text="@string/content_unlock"
+            android:layout_gravity="center"
+            android:gravity="center"/>
 
         <LinearLayout
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -67,6 +69,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/keepassdx"/>
+            <TextView
+                android:id="@+id/keepassdxDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="?attr/colorSecondary"
+                android:text="@string/keepassdx_desc"/>
             <Button
                 android:id="@+id/keepassdxExportSettingsButton"
                 android:layout_width="match_parent"
@@ -83,21 +94,39 @@
                 android:text="@string/keepassdx_migrate"/>
         </LinearLayout>
 
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"
+            android:text="@string/content_help"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
         <LinearLayout
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:orientation="vertical">
             <Button
-                android:id="@+id/yubikeyButton"
+                android:id="@+id/keyDriverButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/yubikey_driver"/>
+                android:text="@string/key_driver"/>
+            <TextView
+                android:id="@+id/keyDriverDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="?attr/colorSecondary"
+                android:text="@string/key_driver_desc"/>
         </LinearLayout>
 
         <LinearLayout
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -106,16 +135,16 @@
                 android:id="@+id/filesyncButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:enabled="false"
                 android:text="@string/filesync"/>
             <TextView
-                android:id="@+id/filesyncSoon"
+                android:id="@+id/filesyncDecription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textIsSelectable="true"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:textColor="?attr/colorSecondary"
-                android:text="@string/coming_soon"/>
+                android:text="@string/filesync_desc"/>
         </LinearLayout>
 
         <TextView
