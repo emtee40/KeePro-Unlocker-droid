@@ -35,7 +35,7 @@ platform :android do
       skip_upload_metadata: "false",
       skip_upload_images: "true",
       skip_upload_screenshots: "true",
-      apk: "./app/build/outputs/apk/free/release/app-free-release.apk",
+      apk: "./app/build/outputs/apk/release/app-release.apk",
       validate_only: "false",
     )
     gradle(
