@@ -15,29 +15,21 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 ## Android
 
-### android tests
+### android build
 
 ```sh
-[bundle exec] fastlane android tests
+[bundle exec] fastlane android build
 ```
 
-Runs all the tests
+Build a new version
 
-### android build_beta
+### android deploy
 
 ```sh
-[bundle exec] fastlane android build_beta
+[bundle exec] fastlane android deploy
 ```
 
-Build a new Beta version
-
-### android deploy_beta_free
-
-```sh
-[bundle exec] fastlane android deploy_beta_pro
-```
-
-Deploy a new Pro Beta version to the Google Play
+Deploy a new version to the Google Play
 
 ----
 

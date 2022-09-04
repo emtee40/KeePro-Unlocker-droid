@@ -17,7 +17,6 @@ platform :android do
   lane :build do |options|
     gradle(
       task: "assemble",
-      flavor: "free",
       build_type: "Release",
       print_command: false,
       properties: {
