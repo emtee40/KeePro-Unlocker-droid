@@ -6,7 +6,12 @@ This app allows you to unlock the content the following apps :
  - Access to additional themes.
  - TOTP Steam creation.
  
-<b>FileSync Pro</b> <i>Coming soon, is currently under development!</i>
+It also helps in the creation of :
+
+<b>Key Driver</b> (Driver for physical key that manages Yubikey and SoloKey)
+ - Access to recovery in case of lost key.
+ 
+<b>FileSync Pro</b> (File manager that allows synchronization and secure storage of files) <i>Coming soon, is currently under development!</i>
  - Access to additional themes.
  - Access to all private cloud APIs (Dropbox, OneDrive, Google Drive, PCloud)
  
