@@ -19,17 +19,13 @@
  */
 package com.kunzisoft.keepass.pro
 
-import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
-import android.content.pm.PackageManager
 import android.net.Uri
-import android.os.Build
 import android.util.Log
 import androidx.activity.result.ActivityResultCallback
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 
 class ExternalFileHelper(context: FragmentActivity) {
@@ -60,7 +56,7 @@ class ExternalFileHelper(context: FragmentActivity) {
         }
     }
 
-    class CreateDocument(private val typeString: String) : ActivityResultContracts.CreateDocument() {
+    class CreateDocument(private val typeString: String) : ActivityResultContracts.CreateDocument(typeString) {
         override fun createIntent(context: Context, input: String): Intent {
             return super.createIntent(context, input).apply {
                 addCategory(Intent.CATEGORY_OPENABLE)
@@ -73,20 +69,5 @@ class ExternalFileHelper(context: FragmentActivity) {
     companion object {
 
         private const val TAG = "OpenFileHelper"
-
-        @SuppressLint("InlinedApi")
-        fun allowCreateDocumentByStorageAccessFramework(packageManager: PackageManager,
-                                                        typeString: String = "application/octet-stream"): Boolean {
-            return when {
-                // To check if a custom file manager can manage the ACTION_CREATE_DOCUMENT
-                Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT -> {
-                    packageManager.queryIntentActivities(Intent(Intent.ACTION_CREATE_DOCUMENT).apply {
-                        addCategory(Intent.CATEGORY_OPENABLE)
-                        type = typeString
-                    }, PackageManager.MATCH_DEFAULT_ONLY).isNotEmpty()
-                }
-                else -> true
-            }
-        }
     }
 }
