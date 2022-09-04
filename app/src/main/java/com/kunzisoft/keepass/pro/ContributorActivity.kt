@@ -68,14 +68,12 @@ class ContributorActivity : AppCompatActivity() {
             layoutBinding.keepassdxHowExportSettings.isVisible = false
         }
 
-        layoutBinding.yubikeyButton.setOnClickListener {
-            openExternalApp("com.kunzisoft.hardware.key")
+        layoutBinding.keyDriverButton.setOnClickListener {
+            //openExternalApp("com.kunzisoft.hardware.key")
+            gotoUrl("https://gitlab.com/kunzisoft/android-hardware-key-driver")
         }
 
         layoutBinding.filesyncButton.setOnClickListener {
-            // TODO
-        }
-        layoutBinding.filesyncSoon.setOnClickListener {
             gotoUrl("https://github.com/Kunzisoft/FileSync")
         }
     }
@@ -103,17 +101,9 @@ class ContributorActivity : AppCompatActivity() {
         }
     }
 
-    private fun gotoUrl(url: String?) {
+    private fun gotoUrl(url: String) {
         try {
-            if (url != null && url.isNotEmpty()) {
-                // Default http:// if no protocol specified
-                val newUrl = if (!url.contains("://")) {
-                    "http://$url"
-                } else {
-                    url
-                }
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(newUrl)))
-            }
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
         } catch (e: Exception) {
             Toast.makeText(this, R.string.no_url_handler, Toast.LENGTH_LONG).show()
         }

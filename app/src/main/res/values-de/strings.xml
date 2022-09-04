@@ -1,10 +1,13 @@
 <resources>
-    <string name="coming_soon">(Demnächst, derzeit in Entwicklung)</string>
+    <string name="keepassdx_desc">KeePass Passwort-Manager, die Pro-Version schaltet Themen frei und ermöglicht den Zugriff auf nicht kostenlose Protokolldienste</string>
+    <string name="key_driver_desc">Treiber für physischen Schlüssel, der Yubikey und SoloKey verwaltet</string>
+    <string name="filesync_desc">Dateimanager, der die Synchronisierung und sichere Speicherung von Dateien ermöglicht</string>
 
     <string name="thank_you">Vielen Dank für Ihren Beitrag!</string>
     <string name="thanks_to_you">Dank Ihnen können die Anwendungen gewartet werden und es werden regelmäßig neue Funktionen hinzugefügt.</string>
-    <string name="first_contribute">Sie sind ein Early Contributor und haben somit Zugang zu den Funktionen der neuen Open-Source-Apps von Kunzisoft, die in Zukunft bereitgestellt werden, also lassen Sie diese App installiert, um von den Vorteilen zu profitieren.</string>
+    <string name="first_contribute">Da Sie zu den ersten Beitragenden gehören, haben Sie Zugang zu den erweiterten Funktionen der neuen Kunzisoft-Open-Source-Anwendungen, die in Zukunft eingesetzt werden. Halten Sie diese Anwendung also installiert, um Ihre Vorteile zu nutzen.</string>
     <string name="content_unlock">Dieser Inhalt ist nun freigeschaltet:</string>
+    <string name="content_help">Außerdem helfen Sie bei der Umsetzung von Anwendungen, die sich in der Entwicklung befinden:</string>
 
     <string name="keepassdx_merge">Um die Benutzerfreundlichkeit weiter zu verbessern, werden KeePassDX und KeePassDX Pro in der gleichen KeePassDX-App zusammengeführt.\n\nNatürlich behalten Sie alle bereits erworbenen Vorteile, aber Sie müssen die KeePassDX-App erneut herunterladen, um Ihre Einstellungen wieder zu integrieren.</string>
     <string name="keepassdx_migrate">Wie kann ich die Einstellungen migrieren?</string>

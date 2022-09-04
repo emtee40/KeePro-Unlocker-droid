@@ -1,0 +1,15 @@
+<resources>
+    <string name="keepassdx_desc">Gestor de contraseñas KeePass, la versión Pro desbloquea temas y da acceso a servicios de protocolo no gratuitos</string>
+    <string name="key_driver_desc">Controlador para llave física compatible con Yubikey y SoloKey</string>
+    <string name="filesync_desc">Gestor de archivos que permite la sincronización y el almacenamiento seguro de archivos</string>
+
+    <string name="thank_you">Gracias por su contribución!</string>
+    <string name="thanks_to_you">Gracias a usted, las aplicaciones pueden mantenerse y se añaden funciones con regularidad.</string>
+    <string name="first_contribute">Como uno de los primeros contribuyentes, tendrá acceso a las características avanzadas de las nuevas aplicaciones de código abierto de Kunzisoft que se desplegarán en el futuro, así que mantenga esta aplicación instalada para disfrutar de sus beneficios.</string>
+    <string name="content_unlock">Este contenido ya está desbloqueado:</string>
+    <string name="content_help">También colaborará en la puesta en marcha de las aplicaciones en desarrollo:</string>
+
+    <string name="keepassdx_merge">Para mejorar aún más la experiencia del usuario, KeePassDX y KeePassDX Pro se fusionan en una sola aplicación KeePassDX y esta aplicación se convierte en una aplicación contributiva.\n\nPor supuesto, mantienes todos los beneficios que ya tienes, pero tienes que volver a descargar la aplicación KeePassDX para reintegrar tu configuración.</string>
+    <string name="keepassdx_migrate">¿Cómo se migra la configuración?</string>
+    <string name="keepassdx_export_settings">Exportación de parámetros</string>
+</resources>
